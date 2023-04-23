@@ -1,7 +1,11 @@
-    What is HTML?
+    
+    ----------------------------------------------------  Top 10 Interview Questions ----------------------------------------
+    
+    
+   -> What is HTML?
         HTML (HyperText Markup Language) is a standard markup language used to create and design web pages.
 
-    What are the different versions of HTML?
+   -> What are the different versions of HTML?
         HTML (1993) - This was the first version of HTML and is often referred to as HTML 1.0.
 
         HTML 2.0 (1995) - This version introduced the concept of tables and form elements.
@@ -13,3 +17,78 @@
         XHTML (2000) - This version was designed to be more strict and well-formed than HTML, following XML standards.
 
         HTML5 (2014) - This is the most recent version of HTML and includes new features like video and audio elements, canvas, and new semantic elements.
+        
+   -> What are the basic tags in HTML?
+        <html>: This tag defines the beginning and end of an HTML document.
+        <head>: This tag contains information about the HTML document, such as the title of the page, meta tags, and links to CSS files.
+        <body>: This tag contains the visible content of the HTML document, such as text, images, and other media.
+        <h1> to <h6>: These tags define headings of different sizes, with <h1> being the largest and <h6> being the smallest.
+        <p>: This tag is used to define paragraphs of text.
+        <a>: This tag is used to create hyperlinks to other web pages, files, or email addresses.
+        <img>: This tag is used to insert images into the HTML document.
+        <ul>: This tag is used to create an unordered list, and <ol> is used to create an ordered list.
+        <li>: This tag is used to define items in a list.
+        <table>: This tag is used to create a table in the HTML document.
+        <tr>: This tag is used to define a row in a table.
+        <td>: This tag is used to define a cell within a table row.
+        
+   -> What is the purpose of the "head" section in an HTML document?
+        <meta> tags, which provide additional information about the document for search engines and other automated tools.
+        <link> tags, which specify the location of external resources such as stylesheets, scripts, and icons.
+        <style> tags, which define CSS rules that apply to the entire document or specific sections of it.
+        <script> tags, which define JavaScript code that runs on the page.
+        
+        Example -> 
+            <head>
+                <title>Example Page</title>
+                    <meta name="description" content="This is an example page for demonstration purposes.">
+                    <meta name="keywords" content="example, demo, HTML">
+                    <link rel="stylesheet" href="styles.css">
+                    <script src="script.js"></script>
+            </head>
+            
+   -> What is the difference between an inline element and a block element in HTML?
+        block-level elements -> <div>, <p>, <h1> to <h6>, <ul>, <ol>, <nav>, <header>, <footer>, <section>, <article>, and <form>
+        inline elements -> <span>, <a>, <strong>, <em>, <img>, <input>, <button>, and <label>
+        
+   -> What is the role of "div" and "span" tags in HTML?
+        The <div> tag is used for grouping together other elements and creating sections or containers on a web page, while the <span> tag is used for              applying styles or adding semantic meaning to a small piece of content within a larger element. Both are essential tools for organizing and                formatting content on a web page.
+        
+   -> What is the use of "alt" attribute in an image tag?
+        The alt attribute in an image tag is used to provide alternative text for an image when it cannot be displayed to the user. This may occur if the           image file is missing or if the user is using a screen reader to access the web page.
+    
+   -> What are the different types of lists in HTML?
+        Ordered list (<ol>): An ordered list is a list of items that are numbered in sequence. The list items are wrapped in <li> tags, and the entire list         is contained within an <ol> tag.
+        Example -> <ol>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ol>
+       Unordered list (<ul>): An unordered list is a list of items that are not numbered and typically represented by bullets. The list items are wrapped           in <li> tags, and the entire list is contained within a <ul> tag.
+       Example -> <ul>
+                      <li>Item 1</li>
+                      <li>Item 2</li>
+                      <li>Item 3</li>
+                    </ul>
+      Definition list (<dl>): A definition list is a list of terms and their corresponding definitions. Each term is wrapped in a <dt> tag, and each             definition is wrapped in a <dd> tag. The entire list is contained within a <dl> tag.
+        Example -> <dl>
+                      <dt>Term 1</dt>
+                      <dd>Definition 1</dd>
+                      <dt>Term 2</dt>
+                      <dd>Definition 2</dd>
+                      <dt>Term 3</dt>
+                      <dd>Definition 3</dd>
+                    </dl>
+                    
+     ->  What is the purpose of the "table" tag in HTML?
+
+       The table tag in HTML is used to create a tabular representation of data or information on a web page. It allows content to be arranged in rows and          columns, and can include features such as headers, footers, and borders.
+
+
+
+
+
+            
+    
+
+
