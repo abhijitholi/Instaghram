@@ -1,0 +1,15 @@
+    What is HTML?
+        HTML (HyperText Markup Language) is a standard markup language used to create and design web pages.
+
+    What are the different versions of HTML?
+        HTML (1993) - This was the first version of HTML and is often referred to as HTML 1.0.
+
+        HTML 2.0 (1995) - This version introduced the concept of tables and form elements.
+
+        HTML 3.2 (1997) - This version introduced new features like applets and font color control.
+
+        HTML 4.01 (1999) - This version added support for Cascading Style Sheets (CSS) and introduced new form controls.
+
+        XHTML (2000) - This version was designed to be more strict and well-formed than HTML, following XML standards.
+
+        HTML5 (2014) - This is the most recent version of HTML and includes new features like video and audio elements, canvas, and new semantic elements.
